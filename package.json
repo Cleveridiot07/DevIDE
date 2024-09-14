@@ -1,0 +1,16 @@
+{
+  "name": "devide",
+  "version": "1.0.0",
+  "description": "The project is a cloud-based IDE featuring a file explorer, terminal, and other developer tools. It leverages Docker containers to provide isolated development environments, allowing users to write, edit, and execute code directly in the cloud. The IDE offers real-time file browsing, code execution, and project management, all within a web-based interface.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"cd client && npm run dev\" \"cd server && npm run dev\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
+}
